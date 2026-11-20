@@ -31,6 +31,10 @@ try {
   }
   mkdirSync(OUTPUT_DIR, { recursive: true });
   copyFileSync(source, target);
+  // Verify the copy landed byte for byte; a partial write must fail loudly.
+  if (!readFileSync(target).equals(readFileSync(source))) {
+    throw new Error('POST.json copy does not match the source byte for byte');
+  }
 } catch (err) {
   console.error(`POST.json could not be copied from ${BOT_DIR}: ${(err as Error).message}`);
   process.exit(1);
