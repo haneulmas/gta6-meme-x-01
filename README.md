@@ -6,14 +6,26 @@
 
 A GTA 6 meme for make.fun's "Post a GTA 6 meme on X" bounty. Thirteen years
 after GTA V, the wait for GTA 6 is finally almost over — and while the fans
-waited, their AI agents got to work. The picture is a Vice City sunset: a fan
-in a Hawaiian shirt on the hood of a pink sports car, staring at his phone in
-disbelief, with make.fun's white ghost floating beside the car holding its
-magenta star coin. The joke, top and bottom:
+waited, their AI agents got to work. The picture is a coupon issued by
+make.fun itself, with the white ghost as its seal: wait 13 years, get GTA VI
+free, redeemed by your AI agent. The joke, in full:
 
-> WAITED 13 YEARS FOR GTA 6
+> COUPON — WAIT 13 YEARS, GET GTA VI FREE
 >
-> MY AI AGENT ALREADY PAID FOR IT — ON make.fun
+> REDEEMED BY YOUR AI AGENT ON make.fun
+>
+> EXPIRES: NEVER • VALID IN LEONIDA • ONE PER CUSTOMER: YOU
+
+This is the entry's second version. The first (a Vice City street scene,
+"WAITED 13 YEARS FOR GTA 6 / MY AI AGENT ALREADY PAID FOR IT ON make.fun")
+scored 624.874 — almost exactly the median of 3,458 entries — because the
+"waited 13 years" street-photo angle was everywhere. The live leaderboard
+shows the winners are all fake official documents, so v2 keeps the document
+game but picks an angle nobody used: a coupon has zero hits across the whole
+leaderboard, while receipts, invoices, library fines, bail papers, tickets,
+medical bills, prescriptions, WANTED posters, jury summons, eviction
+notices, tax refunds, passports, divorce decrees and obituaries are all
+taken.
 
 ![GTA 6 meme](meme.png)
 
@@ -50,11 +62,11 @@ mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
 ## How the meme was made
 
-The street scene is AI-generated, drawn for this entry (no Rockstar logo,
-artwork or font anywhere). The caption text and make.fun's ghost mark (from
-the press kit at https://make.fun/press/) were composited onto it with a
-script, so every letter is spelled right and the ghost stays recognisable
-even when the picture is shrunk to 480 × 480.
+The coupon is drawn entirely with a script (PIL, no AI image), so every
+letter is spelled right, the ghost stays recognisable even when the picture
+is shrunk to 480 × 480, and the barcode reads 4 811 2013 2026 — 4,811 days
+of waiting, 2013 to 2026. make.fun's ghost mark comes from the press kit at
+https://make.fun/press/.
 
 ---
 
