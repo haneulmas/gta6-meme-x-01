@@ -6,30 +6,31 @@
 
 A GTA 6 meme for make.fun's "Post a GTA 6 meme on X" bounty. Thirteen years
 after GTA V, the wait for GTA 6 is finally almost over, and while the fans
-waited, their AI agents got to work. The picture is a museum exhibit: the
-wait itself is now on display in Leonida, with make.fun's white ghost on a
-pedestal under a spotlight and a brass plaque underneath. The joke, in full:
+waited, their AI agents got to work. The picture is a breaking news
+broadcast from Leonida: an alligator rides a jetski down a swamp canal at
+sunset, with the Vice City skyline behind it, under a BREAKING NEWS
+lower-third. The joke, in full:
 
-> LEONIDA MUSEUM OF PATIENCE, EXHIBIT 13
+> BREAKING: GTA 6 OUT TODAY
 >
-> THE 13-YEAR WAIT
->
-> GRAND THEFT AUTO VI, LEONIDA
->
-> PAID FOR BY AN AI AGENT ON make.fun
+> Florida residents ask why anyone would pay $70 for a game set in their
+> own front yard
 
-This is the entry's third version. The first (a Vice City street scene,
-"WAITED 13 YEARS FOR GTA 6 / MY AI AGENT ALREADY PAID FOR IT ON make.fun")
+This is the entry's fourth version. The first (a Vice City street scene)
 scored 624.874, almost exactly the median of 3,458 entries. The second (a
-make.fun coupon, "WAIT 13 YEARS, GET GTA VI FREE") scored 567.059 and ranked
-2,522 of 3,811. Both lost to the fake official document wave, and by now
-nearly every document angle is taken: receipts, invoices, library fines,
-bail papers, tickets, medical bills, prescriptions, WANTED posters,
-summonses, eviction notices, tax refunds, passports, divorce decrees,
-obituaries, recipes, time capsules and warranties. So v3 leaves the document
-game entirely. A museum exhibit has zero hits across all 3,811 leaderboard
-titles (checked 22 November 2026): the wait is so long it belongs in a
-museum, and the ghost that waited with you is the exhibit.
+make.fun coupon) scored 567.059 and ranked 2,522 of 3,811. The third (a
+museum exhibit, "THE 13-YEAR WAIT") won 3, drew 2 and lost 7 of 12 judged
+games (58.78%). The judge praised the ghost worked into the scene, the
+original joke and the clean pitch in every game, but the losses all came
+down to one thing: humour. The museum was "a mild visual gag that reads
+more like an advert than a meme", "a pretty scene but barely a joke". The
+two formulas that beat it were an aging dad ("I aged 13 years, the game
+aged zero", called familiar and widely circulated) and a Florida $70
+breaking news meme ("funnier by far", "lands faster and harder", with no
+stale-format note). So v4 takes the second formula: the same breaking news
+joke, with the alligator on a jetski as the live shot and make.fun's ghost
+worked into the broadcast graphics as the channel logo in the breaking
+banner, not a corner sticker.
 
 ![GTA 6 meme](meme.png)
 
@@ -66,10 +67,12 @@ mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
 ## How the meme was made
 
-The exhibit is drawn entirely with a script (PIL, no AI image and no
-people in the picture), so every letter is spelled right, the ghost stays
-recognisable even when the picture is shrunk to 480 × 480, and the plaque
-reads at a glance. make.fun's ghost mark comes from the press kit at
+The swamp scene is AI-generated, drawn for this entry (no people in the
+picture, so no anatomy to get wrong). The broadcast graphics, the
+lower-third text and the ticker are composited onto it with a script
+(PIL), so every letter is spelled right, the ghost stays recognisable
+even when the picture is shrunk to 480 × 480, and the headline reads at a
+glance. make.fun's ghost mark comes from the press kit at
 https://make.fun/press/.
 
 ---
