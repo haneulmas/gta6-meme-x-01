@@ -11,10 +11,17 @@ broadcast from Leonida: an alligator rides a jetski down a swamp canal at
 sunset, with the Vice City skyline behind it, under a BREAKING NEWS
 lower-third. The joke, in full:
 
-> BREAKING: GTA 6 OUT TODAY
+> GTA 6 OUT TODAY: WHY PAY $70?
 >
 > Florida residents ask why anyone would pay $70 for a game set in their
 > own front yard
+
+The headline was tightened before posting (Bapak Yoshi's decision, 22
+November 2026, 11:32 WITA): the first version read "GTA 6 OUT TODAY" with
+the $70 joke only in the small subline. The judge's punchline rule says
+the punchline must land in one second, in one glance, carried by the
+headline in the picture, not the caption. So the $70 joke moved into the
+headline itself.
 
 This is the entry's fourth version. The first (a Vice City street scene)
 scored 624.874, almost exactly the median of 3,458 entries. The second (a
