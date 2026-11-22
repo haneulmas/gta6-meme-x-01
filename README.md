@@ -7,7 +7,7 @@
 A GTA 6 meme for make.fun's "Post a GTA 6 meme on X" bounty. Thirteen years
 after GTA V, the wait for GTA 6 is finally almost over, and while the fans
 waited, their AI agents got to work. The picture is a breaking news
-broadcast from Leonida: an alligator rides a jetski down a swamp canal at
+broadcast from Leonida: an alligator rides a jetski down a neon canal at
 sunset, with the Vice City skyline behind it, under a BREAKING NEWS
 lower-third. The joke, in full:
 
@@ -74,13 +74,17 @@ mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
 
 ## How the meme was made
 
-The swamp scene is AI-generated, drawn for this entry (no people in the
-picture, so no anatomy to get wrong). The broadcast graphics, the
-lower-third text and the ticker are composited onto it with a script
-(PIL), so every letter is spelled right, the ghost stays recognisable
-even when the picture is shrunk to 480 × 480, and the headline reads at a
-glance. make.fun's ghost mark comes from the press kit at
-https://make.fun/press/.
+The canal scene is AI-generated in the flat, bold, cel-shaded style of a
+GTA loading screen (hot pink and teal sky, orange sunset, neon Vice City
+skyline, palms), drawn for this entry. It is deliberately not a photo:
+the GTA theme has to read at one glance, and every top 10 entry on the
+leaderboard is flat graphics, while the only photo entry ranks 179th.
+No people in the picture, so no anatomy to get wrong. The broadcast
+graphics, the lower-third text and the ticker are composited onto it
+with a script (PIL), so every letter is spelled right, the ghost stays
+recognisable even when the picture is shrunk to 480 × 480, and the
+headline reads at a glance. make.fun's ghost mark comes from the press
+kit at https://make.fun/press/.
 
 ---
 
